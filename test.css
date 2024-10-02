@@ -63,7 +63,10 @@ border-bottom: double;
 }
 h5{
     color: #ffffff;
-    padding-top: 5%;
+    margin-top:5%;
+    margin-bottom:5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
     font-weight: bolder;
     font-size: larger;
     border-bottom: double white;
@@ -118,7 +121,10 @@ width: 50%;
 transition-duration: 1s;
 
 }
-
+.box{
+    height: auto;
+    width: 90%;
+}
 
 main {
     display: flex;
