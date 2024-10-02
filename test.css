@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-image: url('bgimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeats;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #532ff2;
+    color: #ec0808;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+
+ ul button{
+
+  background-color: rgb(246, 246, 249);
+  cursor: pointer;
+  
+ }
+nav li {
+    margin-right: 20px;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.news, .fighters, .events {
+    margin-bottom: 20px;
+}
+
+.news ul, .fighters ul, .events ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.news li, .fighters li, .events li {
+    margin-bottom: 10px;
+}
+
+h2{
+color: #ffffff;
+border-bottom: double;
+
+}
+h5{
+    color: #ffffff;
+    padding-top: 5%;
+    font-weight: bolder;
+    font-size: larger;
+    border-bottom: double white;
+}
+#hl{
+    border-bottom: double;
+    
+}
+
+
+#u1>li>a:link{
+    color: azure;
+}
+
+
+#u1>li>a:hover{
+    
+    color: #da1818;
+}
+
+#button{
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.container{
+
+    margin: 100px 0 0 200px;
+   margin-right: 100px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;    
+}
+.container img {
+
+
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border:2px solid rgba(247, 242, 242, 0)
+    
+}
+.container img:hover {
+width: 50%;
+transition-duration: 1s;
+
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+.hero {
+
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
+#heading{
+font-weight: bolder;
+border-bottom: double white;
+ color:white ;
+ padding-bottom: 1%;
+}
